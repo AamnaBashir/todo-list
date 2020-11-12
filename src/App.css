@@ -1,0 +1,35 @@
+body{
+  background: pink;
+}
+.App{
+  background-color:rgb(130, 66, 182);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#to-do-form input{
+   background-color:rgb(185, 53, 119);
+   border: 0;
+   height: 50px;
+   width: 200px;
+   padding: 0 20px;
+   margin: 20px;
+   font-size: 18px;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times;
+   border-radius: 10px;
+   align-content: cente
+}
+#to-do-form input::placeholder{
+    color:white;  
+}
+#to-do-form button{
+  background-color:  rgb(240, 213, 59);
+  cursor: pointer;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  font-weight: bolder;
+  color:white;
+}
